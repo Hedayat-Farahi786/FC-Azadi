@@ -1,0 +1,12 @@
+.slider {
+  width: 100%;
+  height: 92vh;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 20vh;
+  }
+}
