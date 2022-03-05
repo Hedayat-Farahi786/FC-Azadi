@@ -1,5 +1,5 @@
 .slider {
-  width: 100%;
+  width: 100vw !important;
   height: 92vh;
   background-position: center;
   background-size: cover;
