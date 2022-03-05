@@ -22,7 +22,7 @@
   justify-content: space-between;
 }
 .langs {
-  background-color: black;
+  background-color: transparent;
   position: absolute;
   top: 0;
   display: flex;

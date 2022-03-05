@@ -8,7 +8,7 @@ export const text = {
         du: "Über uns"
     },
     'gallery': {
-        en: "Galley",
+        en: "Gallery",
         du: "Galerie"
     },
     'contact': {
@@ -32,8 +32,8 @@ export const text = {
         du: "Vorstand"
     },
     'GetInTouch': {
-        en: "in Kontakt kommen",
-        du: ""
+        en: "Get in touch",
+        du: "in Kontakt kommen"
     },
     'name': {
         en: "Name",

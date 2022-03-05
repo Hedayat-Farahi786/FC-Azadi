@@ -19,25 +19,25 @@ const About = ({ lang, myRef }) => {
             <div className="execs">
             <div className="exec">
                 <img className="exec__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz-77X11MoGE22xVjjPhbpW6lPj6I0SkcTQ&usqp=CAU" alt="" />
+                <h1 className="exec__name">Ahmad Muhibi</h1>
+                <div className="exec__socials">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div className="exec">
+                <img className="exec__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz-77X11MoGE22xVjjPhbpW6lPj6I0SkcTQ&usqp=CAU" alt="" />
+                <h1 className="exec__name">Qasem Husseini</h1>
+                <div className="exec__socials">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div className="exec">
+                <img className="exec__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz-77X11MoGE22xVjjPhbpW6lPj6I0SkcTQ&usqp=CAU" alt="" />
                 <h1 className="exec__name">Akbar Nurzai</h1>
-                <div className="exec__socials">
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            <div className="exec">
-                <img className="exec__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz-77X11MoGE22xVjjPhbpW6lPj6I0SkcTQ&usqp=CAU" alt="" />
-                <h1 className="exec__name">Hedayat Farahi</h1>
-                <div className="exec__socials">
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            <div className="exec">
-                <img className="exec__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz-77X11MoGE22xVjjPhbpW6lPj6I0SkcTQ&usqp=CAU" alt="" />
-                <h1 className="exec__name">Mohammad Hussain</h1>
                 <div className="exec__socials">
                     <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
                     <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>

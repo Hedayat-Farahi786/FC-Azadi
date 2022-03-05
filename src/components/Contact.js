@@ -10,7 +10,7 @@ const Contact = ({ lang, myRef }) => {
       <div className="contact__left">
       <h1>{text['GetInTouch'][lang]}</h1>
       <div className="contact__line"></div>
-       <form name="contact" method="POST" data-netlify="true" className="contact__form">
+       <form name="contact" method="POST" netlify className="contact__form">
        <div className="name__input">
           <label htmlFor="name">{text['name'][lang]}</label>
           <input name="name" type="text"/>
