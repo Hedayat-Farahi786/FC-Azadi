@@ -1,0 +1,155 @@
+.about {
+  width: 100vw;
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.about__right {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+.about__logo {
+  flex: 1;
+  width: 25vw;
+  padding-top: 5rem;
+}
+.about__team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__team img {
+  display: none;
+  width: 80px;
+}
+.about__line {
+  width: 15vw;
+  height: 5px;
+  background-color: white;
+  margin-top: 1rem;
+}
+.about__description {
+  font-size: 1rem;
+  margin: 3rem 0;
+  line-height: 1.5rem;
+}
+.about__teamline {
+  width: 20vw;
+  height: 5px;
+  background-color: #b9121a;
+  margin-top: 1rem;
+}
+.execs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.exec {
+  width: 250px;
+  height: 250px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+  transition: all 200ms linear;
+}
+.exec:hover {
+  background-color: #b9121a;
+}
+.exec__img {
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.exec__name {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+.exec__line {
+  width: 10vw;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 1.5rem;
+}
+.exec:nth-child(1) {
+  margin-left: 0 !important;
+}
+.exec__socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exec__socials a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: all 200ms linear;
+  margin: 0 1rem;
+}
+.exec__socials a:hover {
+  color: #680f13;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 5vw;
+  }
+  .about__title,
+  .about__line,
+  .about__logo {
+    display: none;
+  }
+  .about__teamline {
+    width: 70vw;
+  }
+  .about__team img {
+    display: flex;
+  }
+
+  .about__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100vw;
+  }
+  .about__logo {
+    width: 50vw;
+    padding: 3rem 0;
+    align-self: center;
+  }
+  .about__right {
+  }
+  .execs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .exec {
+    margin: 1rem 0;
+  }
+  .about__line {
+    width: 40vw;
+    height: 3px;
+  }
+  .exec__line {
+    width: 30vw;
+  }
+}

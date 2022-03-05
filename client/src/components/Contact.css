@@ -1,0 +1,99 @@
+.contact {
+  padding: 2rem 10rem;
+  display: flex;
+}
+.contact__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.contact__right {
+  margin-left: 6rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__form {
+  margin-top: 2rem;
+}
+.contact__line {
+  width: 10vw;
+  height: 5px;
+  background-color: white;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.name__input input,
+.email__input input,
+.message__input textarea {
+  width: 100%;
+  height: 5vh;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-bottom: 1rem;
+  background: none;
+  color: white;
+  outline: none;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.message__input textarea {
+  height: 20vh;
+  resize: none;
+}
+
+.name__input input::placeholder,
+.email__input input::placeholder,
+.message__input textarea::placeholder {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.name__input,
+.email__input,
+.message__input {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.contact__button {
+  margin-top: 1rem;
+  color: white;
+  background-color: #b9121a;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact__button:hover {
+  background-color: #961118;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 2rem 5vw;
+    flex-direction: column;
+  }
+  .contact__line {
+    width: 45vw;
+    height: 3px;
+  }
+  .contact__img {
+    margin-top: 5rem;
+    width: 90vw;
+  }
+  .contact__right {
+    margin: 0;
+  }
+  iframe {
+    margin: 5rem 0;
+    width: 90vw;
+  }
+}
